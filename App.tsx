@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { AppLoading } from 'expo';
 import {
@@ -7,6 +6,8 @@ import {
   Roboto_700Bold,
   useFonts,
 } from '@expo-google-fonts/roboto';
+
+import AppProvider from './src/hooks';
 
 import Routes from './src/routes';
 
@@ -22,9 +23,8 @@ export default function App() {
   }
 
   return (
-    <>
+    <AppProvider>
       <Routes />
-      <StatusBar style="light" />
-    </>
+    </AppProvider>
   );
 }
