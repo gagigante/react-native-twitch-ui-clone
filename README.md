@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  Twitch App UI Clone
+  React Native Twitch UI Clone
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/gagigante/twitch-app-ui-clone">
